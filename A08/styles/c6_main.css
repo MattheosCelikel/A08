@@ -45,8 +45,6 @@ header img {
     text-shadow: 2px 2px 2px #800000;
 }
 
-/* Style rule for h1 */
-
 main {
     padding: 0 30px;
 }
@@ -61,11 +59,11 @@ section {
 }
 aside {
     width: 215px;
-    float: left; /* Left float ensures it stays on the left side */
+    float: left; 
     padding-left: 20px;
     padding-bottom: 20px;
     position: absolute;
-    clear: both; /* This clears the float of the section, allowing the aside to sit properly */
+    clear: both; 
 }
 footer {
     clear: both;
@@ -78,17 +76,17 @@ footer p {
 }
 
 section h1 {
-    color: #800000;  /* Previously h2 color */
-    font-size: 150%;  /* Retain larger size for h1 */
+    color: #800000;  
+    font-size: 150%; 
     padding: .5em 0 .25em 0;
 }
 
 section h2 {
-    color: #f6bb73;  /* Previously h1 color */
-    font-size: 120%;  /* Reduced size for h2 */
-    padding-top: 0;  /* Adjusted space between h1 and h2 */
+    color: #f6bb73;  
+    font-size: 120%;  
+    padding-top: 0;  
     margin-top: 0;
-    padding-bottom: 1em; /* Added some space after the h2 */
+    padding-bottom: 1em; 
 }
 
 section h3 {
@@ -114,7 +112,6 @@ section li {
 
 article {
     padding: .5em 0;
-    /* Removed borders from the article rule */
 }
 
 article h2 {
@@ -125,7 +122,6 @@ article h3 {
     padding-bottom: .25em;
 }
 
-/* Floating image in the article */
 article img {
     float: right;
     margin-top: 15px;
